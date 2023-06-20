@@ -1,0 +1,39 @@
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer {
+  padding: 50px;
+  min-height: 100vh;
+  /* background-color: rgb(93, 21, 21); */
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+
+}
+
+.innerContainer {
+  /* background-color: #fff; */
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  padding: 50px;
+}
+
+
+.mainHeader {
+  /* background-color: red; */
+  height: 70px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.userInfoContainer {
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+}
